@@ -15,7 +15,7 @@ An innovative Android app for streamlining client-entity schedule management in 
 
 ## Introduction
 
-Totally Waxed is designed to simplify appointment booking, client management, and scheduling for businesses in the beauty and wellness industry. The app enables both clients and service provider to manage their schedules efficiently, reducing manual errors and improving communication—all without requiring a separate website or domain.
+Totally Waxed is designed to simplify appointment booking, client management, and scheduling for business entity. The app enables both clients and the service provider to manage their schedules efficiently, reducing manual errors and improving communication—all without requiring a separate website or domain.
 
 ## Features
 
