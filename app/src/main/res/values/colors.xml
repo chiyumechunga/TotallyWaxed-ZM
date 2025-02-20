@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="primary">#FF69B4</color>          <!-- Rosy Pink -->
+    <color name="primary_dark">#FF4BA0</color>     <!-- Darker Pink for status bar -->
+    <color name="secondary">#0099E1</color>        <!-- Cerulean Blue -->
+    <color name="accent">#FF99CC</color>           <!-- Light Magenta -->
+
+    <!-- Background Colors -->
+    <color name="background">#FFFFFF</color>        <!-- White -->
+    <color name="background_off">#F5F5F5</color>   <!-- Off-White -->
+
+    <!-- Text and UI Colors -->
+    <color name="neutral">#333333</color>          <!-- Dark Gray -->
+    <color name="on_primary">#FFFFFF</color>       <!-- White text on primary -->
+    <color name="on_secondary">#FFFFFF</color>     <!-- White text on secondary -->
+
+    <!-- Additional UI Colors -->
+    <color name="divider">#E0E0E0</color>         <!-- Light gray for dividers -->
+    <color name="surface">#FFFFFF</color>          <!-- White for cards/surfaces -->
+</resources>

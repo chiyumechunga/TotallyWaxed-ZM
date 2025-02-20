@@ -1,0 +1,95 @@
+TotallyWaxedApp/
+├── app/                        # Main application module
+│   ├── src/                    # Source code directory
+│   │   ├── main/               # Main source set
+│   │   │   ├── java/           # Java/Kotlin source code
+│   │   │   │   └── com.example.totallywaxed/
+│   │   │   │       ├── core/               # Shared components
+│   │   │   │       │   ├── di/             # Dependency injection (e.g., Dagger/Hilt)
+│   │   │   │       │   │   └── FirebaseModule.kt  # Firebase dependency injection
+│   │   │   │       │   ├── common/         # Base classes, utilities
+│   │   │   │       │   │   └── FirebaseAuthUtils.kt  # Utility for Firebase Auth
+│   │   │   │       │   └── navigation/     # Navigation manager
+│   │   │   │       │
+│   │   │   │       ├── features/           # Feature modules
+│   │   │   │       │   ├── auth/           # Authentication flow
+│   │   │   │       │   │   ├── AuthFragment.kt      # Login/Signup UI
+│   │   │   │       │   │   ├── AuthViewModel.kt     # ViewModel for Auth
+│   │   │   │       │   │   └── AuthRepository.kt    # Firebase Auth logic
+│   │   │   │       │   │
+│   │   │   │       │   ├── appointments/   # Appointment feature
+│   │   │   │       │   │   ├── AppointmentsFragment.kt  # Appointments UI
+│   │   │   │       │   │   ├── AppointmentsViewModel.kt # ViewModel for Appointments
+│   │   │   │       │   │   └── AppointmentsRepository.kt # Firebase DB logic
+│   │   │   │       │   │
+│   │   │   │       │   ├── profile/        # Profile feature
+│   │   │   │       │   │   ├── ProfileFragment.kt      # Profile UI
+│   │   │   │       │   │   ├── ProfileViewModel.kt     # ViewModel for Profile
+│   │   │   │       │   │   └── ProfileRepository.kt    # Firebase DB logic
+│   │   │   │       │   │
+│   │   │   │       │   └── notifications/  # Notifications feature
+│   │   │   │       │       └── NotificationsManager.kt # Firebase Cloud Messaging
+│   │   │   │       │
+│   │   │   │       ├── roles/              # Role-specific components
+│   │   │   │       │   ├── client/         # Client-specific functionality
+│   │   │   │       │   │   ├── home/       # Home screen for clients
+│   │   │   │       │   │   │   └── HomeFragment.kt
+│   │   │   │       │   │   ├── booking/    # Booking functionality
+│   │   │   │       │   │   │   └── BookingFragment.kt
+│   │   │   │       │   │   └── ...         # Other client-specific features
+│   │   │   │       │   │
+│   │   │   │       │   └── admin/          # Admin-specific functionality
+│   │   │   │       │       ├── dashboard/  # Admin dashboard
+│   │   │   │       │       │   └── DashboardFragment.kt
+│   │   │   │       │       └── reports/    # Reports generation
+│   │   │   │       │           └── ReportsFragment.kt
+│   │   │   │       │
+│   │   │   │       ├── data/               # Data layer
+│   │   │   │       │   ├── local/          # Local storage (SharedPreferences, Room)
+│   │   │   │       │   │   └── PreferencesManager.kt
+│   │   │   │       │   ├── remote/         # Remote data sources (Firebase)
+│   │   │   │       │   │   ├── FirebaseAuthenticationDataSource.kt
+│   │   │   │       │   │   ├── FirebaseRealTimeDataSource.kt
+│   │   │   │       │   │   └── FirebaseStorageDataSource.kt
+│   │   │   │       │   └── repositories/   # Combined repositories
+│   │   │   │       │       ├── AuthRepository.kt
+│   │   │   │       │       ├── AppointmentsRepository.kt
+│   │   │   │       │       └── ProfileRepository.kt
+│   │   │   │       │
+│   │   │   │       └── domain/             # Business logic
+│   │   │   │           ├── models/         # Shared models
+│   │   │   │           │   ├── Appointment.kt
+│   │   │   │           │   └── User.kt
+│   │   │   │           └── usecases/       # Use cases (interactors)
+│   │   │   │               ├── GetAppointmentsUseCase.kt
+│   │   │   │               ├── UpdateProfileUseCase.kt
+│   │   │   │               └── SendNotificationUseCase.kt
+│   │   │   │
+│   │   │   ├── res/                       # Resources (layouts, drawables, etc.)
+│   │   │   │   ├── layout/                # XML layouts
+│   │   │   │   │   ├── role_client/       # Client-specific layouts
+│   │   │   │   │   │   ├── fragment_home.xml
+│   │   │   │   │   │   └── fragment_appointments.xml
+│   │   │   │   │   ├── role_admin/        # Admin-specific layouts
+│   │   │   │   │   │   └── fragment_dashboard.xml
+│   │   │   │   │   └── ...                 # Other layouts
+│   │   │   │   ├── drawable/              # Drawable resources
+│   │   │   │   │   ├── ic_home.xml
+│   │   │   │   │   ├── ic_calendar.xml
+│   │   │   │   │   └── ic_profile.xml
+│   │   │   │   ├── values/                # Values resources
+│   │   │   │   │   ├── colors.xml
+│   │   │   │   │   ├── dimens.xml
+│   │   │   │   │   ├── strings.xml
+│   │   │   │   │   └── styles.xml
+│   │   │   │   ├── menu/                  # Menu resources
+│   │   │   │   │   └── bottom_nav_menu.xml
+│   │   │   │   └── navigation/            # Navigation resources
+│   │   │   │       └── nav_graph.xml
+│   │   │   └── AndroidManifest.xml        # Application manifest
+│   ├── build.gradle                       # Module-level Gradle configuration
+├── gradle/                                # Gradle wrapper scripts
+│   └── wrapper/                           # Gradle wrapper files
+├── build.gradle                           # Project-level Gradle configuration
+├── settings.gradle                        # Project settings
+└── README.md                              # Project documentation  

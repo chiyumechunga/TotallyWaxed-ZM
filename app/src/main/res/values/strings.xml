@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Totally Waxed</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="log_in">Log In</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="verify_password">Verify Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password_description">Enter your email address and we\'ll send you a link to reset your password.</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="sending_reset_link">Sending Reset Link…</string>
+    <string name="reset_link_sent">Password reset link has been sent to your email</string>
+    <string name="error_reset_password">Failed to send password reset email</string>
+    <string name="error_email_empty">Please enter your email address</string>
+    <string name="cancel">Cancel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logging_in">Logging in</string>
+    <string name="error_login_failed">failed to login</string>
+    <string name="welcome_to_totally_waxed">Welcome to Totally Waxed</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="error_empty_fields">Oops! Some fields are empty. Please complete all fields to proceed</string>
+    <string name="already_have_an_account">Already Registered? Login Now</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="email_address">email\n</string>
+    <string name="error_invalid_email">Invalid email\n</string>
+    <string name="error_password_too_short">"password is too short, consider having a password with more than 6 characters\n "</string>
+    <string name="signup_successful">Signup successful!</string>
+    <string name="profile_management">Profile Management</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="city">City\n</string>
+    <string name="user_id">User id</string>
+    <string name="change">Change</string>
+    <string name="registration_date">Registration date</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="account">Account</string>
+    <string name="enter_details">Enter details</string>
+    <string name="personal_profile">Profile</string>
+    <string name="back">Back</string>
+    <string name="sign_up_loading">Loading sign up\n</string>
+    <string name="greeting_text">Welcome, %1$s!</string>
+    <string name="title_home">Home</string>
+    <string name="title_appointments">Appointments</string>
+    <string name="title_profile">Profile</string>
+
+</resources>

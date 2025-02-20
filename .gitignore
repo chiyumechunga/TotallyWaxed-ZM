@@ -1,0 +1,45 @@
+# Gradle files
+.gradle/
+build/
+/gradlew
+/gradlew.bat
+/local.properties
+
+
+# IntelliJ/Android Studio
+/.idea/
+*.iml
+/app/*.iml
+
+# Build files
+/app/build/
+
+# Generated files
+*.apk
+*.aab
+*.aar
+*.ap_
+*.dex
+*.class
+
+# Google Services
+/app/google-services.json
+
+# System files
+.DS_Store
+
+# External Libraries
+/External Libraries/
+
+# Proguard
+/app/proguard-rules.pro
+
+# Gradle Configuration
+/settings.gradle.kts
+/build.gradle.kts
+/gradle.properties
+
+#Misc
+/captures
+.externalNativeBuild
+.cxx
